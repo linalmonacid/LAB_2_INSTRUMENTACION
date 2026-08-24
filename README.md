@@ -60,19 +60,23 @@ Antes de realizar las mediciones sobre el sujeto se verificó la corriente máxi
 
 Para analizar la condición más desfavorable se tomó Rskin = 0 Ω   
 
-
+<p align="center">
+  <img src=https:"https://github.com/user-attachments/assets/8f0b21e1-414d-4549-8206-573f2b958642"width="500">
+</p>
 <img width="310" height="236" alt="image" src="https://github.com/user-attachments/assets/8f0b21e1-414d-4549-8206-573f2b958642" />  
 
 
 Al convertir este resultado a miliamperios:  
 
-
+<p align="center">
+  <img src=https:"https://github.com/user-attachments/assets/fc30ef85-ae56-4e55-8742-492a5ff0717c" width="500">
+</p>
 <img width="244" height="158" alt="image" src="https://github.com/user-attachments/assets/fc30ef85-ae56-4e55-8742-492a5ff0717c" />  
 
 
 Se comprobó que, incluso considerando el caso extremo planteado en la guía, la corriente máxima teórica que podría circular a través del sujeto se encontraba por debajo del límite establecido para la práctica [1]. Además, puede comprobarse cuál sería la resistencia mínima necesaria para limitar la corriente a 1 mA utilizando una alimentación de 5 V:   
 <p align="center">
-<b>Figura 1.</b> Señal respiratoria obtenida durante la respiración en reposo.
+  <img src=https:"https://github.com/user-attachments/assets/f3b00fab-2d98-423a-9b97-e6c1388c9fc1" width="500">
 </p>
 
 <img width="265" height="128" alt="image" src="https://github.com/user-attachments/assets/f3b00fab-2d98-423a-9b97-e6c1388c9fc1" />  
