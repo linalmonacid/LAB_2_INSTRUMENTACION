@@ -143,6 +143,24 @@ Sin embargo, la interpretación de estas variaciones debe realizarse con precauc
 
 
 ### Análisis de resultados
+## Análisis 1: Eficacia del sistema desarrollado para monitoreo ambulatorio del estrés en oficinas, aulas universitarias y el hogar  
+El sistema desarrollado presenta una buena viabilidad para el monitoreo ambulatorio en espacios como oficinas, aulas universitarias y el hogar, principalmente porque es portátil, utiliza electrodos integrados en un guante y cuenta con una ESP32 alimentada mediante batería y ubicada en la muñeca. Además, la transmisión inalámbrica permite visualizar la información desde un computador o teléfono celular sin mantener al usuario conectado físicamente al equipo de adquisición. Estas características favorecen el registro continuo de cambios en la GSR mientras la persona realiza actividades cotidianas [1].  
+
+En oficinas y aulas universitarias, el dispositivo podría emplearse para observar cambios de activación fisiológica durante situaciones como exámenes, exposiciones, jornadas prolongadas de trabajo o tareas que requieren alta concentración. En el hogar podría utilizarse para comparar períodos de descanso con actividades que generen mayor carga mental. La GSR tiene la ventaja de responder a modificaciones de la actividad del sistema nervioso simpático y puede registrarse de manera continua mediante dispositivos vestibles, lo que facilita su aplicación fuera de ambientes controlados de laboratorio [2][8].  
+
+Sin embargo, la eficacia del sistema puede disminuir debido a los artefactos producidos por el movimiento. Actividades como escribir, caminar o mover constantemente la mano pueden modificar el contacto entre los electrodos y la piel y producir cambios que no correspondan directamente al estrés. También pueden influir la temperatura ambiental, la sudoración, la humedad y las diferencias fisiológicas entre personas, por lo que sería necesario realizar una calibración individual y asegurar una buena fijación de los electrodos [2][8].  
+
+En general, el sistema puede considerarse adecuado como una herramienta experimental para observar tendencias y cambios en la activación fisiológica durante actividades cotidianas, especialmente por su portabilidad y transmisión inalámbrica. No obstante, la GSR no permite identificar de manera exclusiva el estrés, por lo que sus resultados deben interpretarse teniendo en cuenta el contexto de la persona y, para aplicaciones de mayor precisión, sería recomendable combinarla con otras variables como frecuencia cardíaca o respiración.  
+
+
+## Análisis 2: Alcance y las posibles limitaciones de emplear el sistema construido durante la práctica para detectar estrés neonatal en recién nacidos  
+El sistema desarrollado durante la práctica podría tener un alcance potencial como herramienta de monitoreo no invasivo de cambios en la actividad fisiológica de recién nacidos, ya que la conductancia de la piel puede variar ante estímulos dolorosos, manipulación o situaciones de incomodidad. Por esta razón, la GSR podría aportar información complementaria durante la valoración del estado del neonato, especialmente cuando se desea observar cambios asociados con la activación del sistema nervioso autónomo [9][10].  
+
+Sin embargo, el dispositivo construido en el laboratorio no podría utilizarse directamente en neonatos en su forma actual. El guante, los electrodos, la ESP32 y la batería fueron diseñados para una persona adulta, por lo que sería necesario reducir el tamaño del sistema, utilizar materiales adecuados para piel neonatal y mejorar los métodos de fijación, aislamiento y seguridad eléctrica. Además, los recién nacidos presentan una piel más sensible y condiciones fisiológicas diferentes, por lo que el montaje tendría que ser validado específicamente para esta población.  
+
+Otra limitación importante es que la GSR no es un indicador exclusivo de estrés. La señal también puede modificarse por dolor, movimientos, temperatura, contacto con los electrodos, medicamentos y otros estímulos. Además, la respuesta puede variar según la edad gestacional y el grado de maduración del sistema nervioso autónomo, por lo que no sería adecuado utilizar los mismos umbrales de estrés para todos los recién nacidos [9][10][13].  
+
+Por lo tanto, el sistema podría servir como punto de partida para desarrollar un dispositivo de investigación orientado al monitoreo neonatal, pero no debería utilizarse por sí solo para diagnosticar estrés ni para tomar decisiones clínicas. Para aumentar su confiabilidad sería necesario combinar la GSR con otras variables como frecuencia cardíaca, saturación de oxígeno, expresión facial o escalas clínicas, además de realizar un proceso de validación antes de su aplicación en recién nacidos [13].  
 
 
 
@@ -186,3 +204,19 @@ https://doi.org/10.1016/j.pain.2010.11.032
 
 [4] Breimhorst, M., Sandrock, S., Fechir, M., Hausenblas, N., Geber, C., & Birklein, F. (2011). Do intensity ratings and skin conductance responses reliably discriminate between different stimulus intensities in experimentally induced pain? The Journal of Pain, 12(1), 61–70.
 https://doi.org/10.1016/j.jpain.2010.04.012
+
+[5] Lim, C. L., Seto-Poon, M., Clouston, P. D., & Morris, J. G. L. (2003). Sudomotor nerve conduction velocity and central processing time of the skin conductance response. Clinical Neurophysiology, 114(11), 2172–2180. https://doi.org/10.1016/S1388-2457(03)00204-9
+
+[6] Krishnamurthy, N., Ahamed, S. M., Vengadesh, G. S., Balakumar, B., & Srinivasan, V. (1996). Influence of respiration on human sympathetic skin response. Indian Journal of Physiology and Pharmacology, 40(4), 350–354. https://pubmed.ncbi.nlm.nih.gov/9055106/
+
+[7] Klimek, A., Mannheim, I., Schouten, G., Wouters, E. J. M., & Peeters, M. W. H. (2023). Wearables measuring electrodermal activity to assess perceived stress in care: A scoping review. Acta Neuropsychiatrica, 37, e19. https://doi.org/10.1017/neu.2023.19
+
+[8] Posada-Quintero, H. F., & Chon, K. H. (2020). Innovations in electrodermal activity data collection and signal processing: A systematic review. Sensors, 20(2), 479. https://doi.org/10.3390/s20020479
+[9] Hu, J., Squires, J. E., Harrold, J., Harrison, D., et al. (2019). The validity of skin conductance for assessing acute pain in infants: A scoping review. The Clinical Journal of Pain, 35(8), 713–724.
+https://pubmed.ncbi.nlm.nih.gov/31094936/
+
+[10] Storm, H., Fremming, A., Ødegaard, S., Martinsen, Ø. G., & Mørkrid, L. (2011). Skin conductance measurements as pain assessment in newborn infants born at 22–27 weeks gestational age at different postnatal age. Early Human Development, 87(8), 537–542.
+https://pubmed.ncbi.nlm.nih.gov/21764228/
+
+[13] Valkenburg, A. J., de Leeuw, T. G., Tibboel, D., & Weber, F. (2016). Feasibility of monitoring stress using skin conduction measurements during intubation of newborns. European Journal of Pediatrics, 175, 237–243.
+https://pmc.ncbi.nlm.nih.gov/articles/PMC4724365/
