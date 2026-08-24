@@ -45,14 +45,23 @@ La alimentación mediante una batería permitió que el dispositivo funcionara d
 
 
 ### Seguridad en el laboratorio
-Antes de realizar las mediciones sobre el sujeto se verificó la corriente máxima que podía circular a través de la piel. La guía establece que para alimentaciones comprendidas entre 3.3 y 5 VDC debe garantizarse que la corriente a través del sujeto no supere 1 mA, considerando como condición extrema que la resistencia de la piel pueda aproximarse a un cortocircuito, es decir, Rskin = 0 Ω [1].  Para el circuito utilizado se consideró una alimentación máxima de 5 V y una resistencia en serie de 68 kΩ. La corriente que podría circular a través del paciente se determinó mediante la ley de Ohm:  
+Antes de realizar las mediciones sobre el sujeto se verificó la corriente máxima que podía circular a través de la piel. La guía establece que para alimentaciones comprendidas entre 3.3 y 5 VDC debe garantizarse que la corriente a través del sujeto no supere 1 mA, considerando como condición extrema que la resistencia de la piel pueda aproximarse a un cortocircuito, es decir, Rskin = 0 Ω [1].  Para el circuito utilizado se consideró una alimentación máxima de 5 V y una resistencia en serie de 68 kΩ. La corriente que podría circular a través del paciente se determinó mediante la ley de Ohm:   
+
 <img width="276" height="88" alt="image" src="https://github.com/user-attachments/assets/50e02b82-b4a0-4cb2-b0e0-e56585fcaa47" />  
-Para analizar la condición más desfavorable se tomó Rskin = 0 Ω, por tanto:  
+Para analizar la condición más desfavorable se tomó Rskin = 0 Ω, por tanto:   
+
 <img width="310" height="236" alt="image" src="https://github.com/user-attachments/assets/8f0b21e1-414d-4549-8206-573f2b958642" />  
+
+
 Al convertir este resultado a miliamperios:  
 <img width="244" height="158" alt="image" src="https://github.com/user-attachments/assets/fc30ef85-ae56-4e55-8742-492a5ff0717c" />  
-se comprobó que, incluso considerando el caso extremo planteado en la guía, la corriente máxima teórica que podría circular a través del sujeto se encontraba por debajo del límite establecido para la práctica [1]. Además, puede comprobarse cuál sería la resistencia mínima necesaria para limitar la corriente a 1 mA utilizando una alimentación de 5 V:  
+
+
+se comprobó que, incluso considerando el caso extremo planteado en la guía, la corriente máxima teórica que podría circular a través del sujeto se encontraba por debajo del límite establecido para la práctica [1]. Además, puede comprobarse cuál sería la resistencia mínima necesaria para limitar la corriente a 1 mA utilizando una alimentación de 5 V:   
+
 <img width="265" height="128" alt="image" src="https://github.com/user-attachments/assets/f3b00fab-2d98-423a-9b97-e6c1388c9fc1" />  
+
+
 Por lo tanto, la resistencia utilizada de 68 kΩ es considerablemente mayor que los 5 kΩ mínimos obtenidos bajo esta condición idealizada de cálculo, proporcionando una limitación de corriente adicional dentro del circuito.  
 
 
