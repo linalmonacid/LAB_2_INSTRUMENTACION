@@ -55,7 +55,7 @@ Antes de realizar las mediciones sobre el sujeto se verificó la corriente máxi
   <img src=https://github.com/user-attachments/assets/50e02b82-b4a0-4cb2-b0e0-e56585fcaa47 width="500">
 </p>
 
-<img width="276" height="88" alt="image" src="https://github.com/user-attachments/assets/50e02b82-b4a0-4cb2-b0e0-e56585fcaa47" />  
+
 
 
 Para analizar la condición más desfavorable se tomó Rskin = 0 Ω   
@@ -63,7 +63,6 @@ Para analizar la condición más desfavorable se tomó Rskin = 0 Ω
 <p align="center">
   <img src=https://github.com/user-attachments/assets/8f0b21e1-414d-4549-8206-573f2b958642 width="500">
 </p>
-<img width="310" height="236" alt="image" src="https://github.com/user-attachments/assets/8f0b21e1-414d-4549-8206-573f2b958642" />  
 
 
 Al convertir este resultado a miliamperios:  
@@ -71,7 +70,7 @@ Al convertir este resultado a miliamperios:
 <p align="center">
   <img src="https://github.com/user-attachments/assets/fc30ef85-ae56-4e55-8742-492a5ff0717c" width="500">
 </p>
-<img width="244" height="158" alt="image" src="https://github.com/user-attachments/assets/fc30ef85-ae56-4e55-8742-492a5ff0717c" />  
+
 
 
 Se comprobó que, incluso considerando el caso extremo planteado en la guía, la corriente máxima teórica que podría circular a través del sujeto se encontraba por debajo del límite establecido para la práctica [1]. Además, puede comprobarse cuál sería la resistencia mínima necesaria para limitar la corriente a 1 mA utilizando una alimentación de 5 V:   
@@ -79,7 +78,7 @@ Se comprobó que, incluso considerando el caso extremo planteado en la guía, la
   <img src="https://github.com/user-attachments/assets/f3b00fab-2d98-423a-9b97-e6c1388c9fc1" width="500">
 </p>
 
-<img width="265" height="128" alt="image" src="https://github.com/user-attachments/assets/f3b00fab-2d98-423a-9b97-e6c1388c9fc1" />  
+
 
 
 La resistencia utilizada experimentalmente fue de 68 kΩ, considerablemente mayor que los 5 kΩ obtenidos para esta condición límite. Por esta razón, la resistencia seleccionada permitió mantener la corriente teórica por debajo del valor máximo planteado en la guía.  
