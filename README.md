@@ -1,4 +1,6 @@
-# LAB_2_INSTRUMENTACION### Integrantes
+# LAB_2_INSTRUMENTACION
+
+### Integrantes
 
 Lina María Cortes Almonacid
 Karen Dayanna Mora Segura
