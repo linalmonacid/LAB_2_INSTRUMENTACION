@@ -139,11 +139,51 @@ Sin embargo, la interpretación de estas variaciones debe realizarse con precauc
 
 
 
+### Resultados  
+Como resultado de la práctica se obtuvo un sistema vestible capaz de adquirir las variaciones de la respuesta galvánica cutánea mediante dos electrodos ubicados en la palma de la mano y conectados a una ESP32. El dispositivo permitió observar en tiempo real los cambios registrados por el circuito y posteriormente transmitir la información de manera inalámbrica hacia un computador y un teléfono celular. Además, el montaje fue adaptado para facilitar su uso durante diferentes actividades mediante la integración de los electrodos en un guante y la ubicación de la ESP32 y su sistema de alimentación sobre una correa ajustable en la muñeca.  
+
+Durante las pruebas se verificó inicialmente el funcionamiento del circuito y la respuesta de la señal frente a cambios producidos por el contacto con la piel y diferentes condiciones del sujeto. Posteriormente se evaluó el comportamiento de la GSR durante reposo, movimiento y respiración profunda, con el propósito de identificar valores mínimos y máximos que permitieran establecer rangos de referencia para la clasificación del nivel de estrés. Finalmente, se comprobó la comunicación inalámbrica entre la ESP32 y la interfaz desarrollada en Thunkable, permitiendo visualizar la información obtenida desde diferentes dispositivos [1].  
+
+Inicialmente se verificó el montaje del circuito empleado para adquirir las variaciones de la GSR. El sistema estuvo compuesto por los electrodos, la resistencia de 68 kΩ, el condensador de 1 µF y la conexión hacia el pin GPIO 34 de la ESP32. El montaje permitió obtener una variación analógica asociada con los cambios en las propiedades eléctricas de la piel.
+
+PEGAAAAAAAAAAAAAAAAR IMAGENNNNNNNNNNNNNN CIRCUITOOOOOO  
+
+Figura . Circuito implementado para la adquisición de la respuesta galvánica cutánea.  
+
+Para permitir el uso del sistema durante diferentes actividades, los electrodos fueron integrados en un guante mediante dos orificios realizados sobre la zona correspondiente a la palma de la mano. Esto permitió mantener los electrodos en contacto directo con la piel mientras el sujeto utilizaba el dispositivo. La ESP32 y la batería fueron dispuestas sobre una correa ajustable ubicada en la muñeca, permitiendo reducir la dependencia de conexiones externas y aumentar la movilidad del sistema.  
+
+
+PEGAAAAAAAAAAAAAAAAR IMAGENNNNNNNNNNNNNN GUANTEEEEEEEE
+
+Figura . Dispositivo vestible desarrollado para la adquisición de la GSR.  
+
+PEGAAAAAAAAAAAAAAAAR IMAGENNNNNNNNNNNNNN ELECTRODOOOOOOS
+
+
+Figura . Ubicación de los electrodos en la zona palmar del dispositivo vestible.  
+
+Durante la prueba de respiración profunda se registraron los valores obtenidos antes, durante y después del estímulo. A partir de esta prueba se identificaron los valores mínimo y máximo de la señal, los cuales fueron utilizados como referencia para establecer los límites correspondientes a los diferentes niveles de estrés.  
+
+AQUÍ VA GRÁFICA DE LA RESPIRACIÓN PROFUNDAAAAAAAAAAAAAAA  
+
+Figura . Comportamiento de la señal GSR durante una inspiración profunda seguida de una exhalación lenta.  
+
+TOCA PONER VALOR MAXIMO, MINIMO, LOS TRES VALORES ESTRES  
+
+A partir de los umbrales definidos experimentalmente, las lecturas de GSR fueron clasificadas según tres niveles de referencia. La interfaz permitió presentar al usuario el nivel estimado en lugar de limitarse únicamente a mostrar el valor digital adquirido por la ESP32.  
+
+AQUÍ VA CAPTURA DE THUNKABLE MOSTRANDO ESTRÉS BAJO/MODERADO/ELEVADO
+Figura . Clasificación y visualización inalámbrica del nivel estimado de estrés.  
+
+Finalmente, el dispositivo fue utilizado mientras el sujeto realizó una actividad que demandaba concentración y esfuerzo mental. Durante la prueba se mantuvo la adquisición continua de la GSR y la transmisión inalámbrica hacia la aplicación, permitiendo observar los cambios del nivel estimado de estrés durante la actividad.  
 
 
 
+AQUÍ VA GRÁFICA REPOSO VS TAREA COGNITIVA
 
-### Resultados
+Figura 11. Comparación de la respuesta GSR durante reposo y durante la realización de una tarea cognitiva.  
+
+
 
 
 ### Análisis de resultados
