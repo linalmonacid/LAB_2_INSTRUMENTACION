@@ -1,4 +1,4 @@
-<img width="739" height="1600" alt="image" src="https://github.com/user-attachments/assets/67275c12-5676-4840-bfbc-643d199d5930" /># LAB_2_INSTRUMENTACION
+
 
 ### Integrantes
 
