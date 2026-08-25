@@ -117,7 +117,11 @@ Cada vez que un dispositivo realizaba una solicitud a esta dirección, la ESP32 
 
 Para visualizar inalámbricamente la información se utilizó la plataforma Thunkable. Dentro de la aplicación se incorporaron un temporizador, un componente Web API y un elemento de texto destinado a mostrar el valor recibido. El temporizador se utilizó para realizar consultas periódicas al servidor de la ESP32 y actualizar la información presentada al usuario.  
  
-Cuando se activaba el temporizador, el componente Web API realizaba una solicitud GET hacia la ruta /datos. Si la solicitud se realizaba correctamente, la aplicación recibía la respuesta JSON generada por la ESP32. Esta respuesta era convertida nuevamente en un objeto, del cual se obtenía la propiedad gsr. Finalmente, el valor extraído era asignado al elemento de texto de la interfaz.  
+Cuando se activaba el temporizador, el componente Web API realizaba una solicitud GET hacia la ruta /datos. Si la solicitud se realizaba correctamente, la aplicación recibía la respuesta JSON generada por la ESP32. Esta respuesta era convertida nuevamente en un objeto, del cual se obtenía la propiedad gsr. Finalmente, el valor extraído era asignado al elemento de texto de la interfaz. A continuación se observa el diagrama de bloques desarrollado en la aplicación:
+
+<img width="686" height="368" alt="image" src="https://github.com/user-attachments/assets/bfafd4ff-26f7-4ba2-97b1-d586d357b1b8" />  
+
+
 
 La cadena completa de adquisición y transmisión implementada durante la práctica puede resumirse de la siguiente manera:  
 
