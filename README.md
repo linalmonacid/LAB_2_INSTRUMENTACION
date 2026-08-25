@@ -171,10 +171,11 @@ Para permitir el uso del sistema durante diferentes actividades, los electrodos 
 
 Durante la prueba de respiración profunda se registraron los valores obtenidos antes, durante y después del estímulo. A partir de esta prueba se identificaron los valores mínimo y máximo de la señal, los cuales fueron utilizados como referencia para establecer los límites correspondientes a los diferentes niveles de estrés. 
 <img width="739" height="1600" alt="image" src="https://github.com/user-attachments/assets/5b4eabd2-ce27-4e9a-a31d-f088b04efd58" />
-<p align="center">
-  
+
+<p align="center"> 
 <b>Figura 4.</b> Clasificación y visualización inalámbrica para capturar el estres: Estres bajo.  
 </p>
+
 <img width="739" height="1600" alt="image" src="https://github.com/user-attachments/assets/f048e933-8102-4bfd-9dbb-49da4dcec5b6" />
 
 <p align="center">
