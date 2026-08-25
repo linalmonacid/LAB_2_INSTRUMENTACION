@@ -1,4 +1,4 @@
-# LAB_2_INSTRUMENTACION
+<img width="739" height="1600" alt="image" src="https://github.com/user-attachments/assets/67275c12-5676-4840-bfbc-643d199d5930" /># LAB_2_INSTRUMENTACION
 
 ### Integrantes
 
@@ -146,45 +146,46 @@ Durante las pruebas se verificó inicialmente el funcionamiento del circuito y l
 
 Inicialmente se verificó el montaje del circuito empleado para adquirir las variaciones de la GSR. El sistema estuvo compuesto por los electrodos, la resistencia de 68 kΩ, el condensador de 1 µF y la conexión hacia el pin GPIO 34 de la ESP32. El montaje permitió obtener una variación analógica asociada con los cambios en las propiedades eléctricas de la piel.
 
-PEGAAAAAAAAAAAAAAAAR IMAGENNNNNNNNNNNNNN CIRCUITOOOOOO  
+<img width="1600" height="1465" alt="image" src="https://github.com/user-attachments/assets/d55e20d8-01f9-4f37-ae97-5b7a2b9eaefe" />
 
-Figura . Circuito implementado para la adquisición de la respuesta galvánica cutánea.  
+<p align="center">
+<b>Figura 1.</b> Circuito implementado para la adquisición de la respuesta galvánica cutánea.
+</p>
+  
 
 Para permitir el uso del sistema durante diferentes actividades, los electrodos fueron integrados en un guante mediante dos orificios realizados sobre la zona correspondiente a la palma de la mano. Esto permitió mantener los electrodos en contacto directo con la piel mientras el sujeto utilizaba el dispositivo. La ESP32 y la batería fueron dispuestas sobre una correa ajustable ubicada en la muñeca, permitiendo reducir la dependencia de conexiones externas y aumentar la movilidad del sistema.  
 
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/2ea468c6-3289-4e34-8f16-373e0800f0c5" />
 
-PEGAAAAAAAAAAAAAAAAR IMAGENNNNNNNNNNNNNN GUANTEEEEEEEE
-
-Figura . Dispositivo vestible desarrollado para la adquisición de la GSR.  
-
-PEGAAAAAAAAAAAAAAAAR IMAGENNNNNNNNNNNNNN ELECTRODOOOOOOS
+<p align="center">
+<b>Figura 2.</b> Dispositivo vestible desarrollado para la adquisición de la GSR.  
+</p>
 
 
-Figura . Ubicación de los electrodos en la zona palmar del dispositivo vestible.  
 
-Durante la prueba de respiración profunda se registraron los valores obtenidos antes, durante y después del estímulo. A partir de esta prueba se identificaron los valores mínimo y máximo de la señal, los cuales fueron utilizados como referencia para establecer los límites correspondientes a los diferentes niveles de estrés.  
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/7e7421f9-78bb-4834-93de-95971fa8e086" />
 
-AQUÍ VA GRÁFICA DE LA RESPIRACIÓN PROFUNDAAAAAAAAAAAAAAA  
+<p align="center">
+<b>Figura 3.</b> Ubicación de los electrodos en la zona palmar del dispositivo vestible.  
+</p>
 
-Figura . Comportamiento de la señal GSR durante una inspiración profunda seguida de una exhalación lenta.  
+Durante la prueba de respiración profunda se registraron los valores obtenidos antes, durante y después del estímulo. A partir de esta prueba se identificaron los valores mínimo y máximo de la señal, los cuales fueron utilizados como referencia para establecer los límites correspondientes a los diferentes niveles de estrés. 
+<img width="739" height="1600" alt="image" src="https://github.com/user-attachments/assets/5b4eabd2-ce27-4e9a-a31d-f088b04efd58" />
+<p align="center">
+<b>Figura 4.</b> Estres bajo.  
+</p>
+<img width="739" height="1600" alt="image" src="https://github.com/user-attachments/assets/f048e933-8102-4bfd-9dbb-49da4dcec5b6" />
 
-TOCA PONER VALOR MAXIMO, MINIMO, LOS TRES VALORES ESTRES  
-
-A partir de los umbrales definidos experimentalmente, las lecturas de GSR fueron clasificadas según tres niveles de referencia. La interfaz permitió presentar al usuario el nivel estimado en lugar de limitarse únicamente a mostrar el valor digital adquirido por la ESP32.  
-
-AQUÍ VA CAPTURA DE THUNKABLE MOSTRANDO ESTRÉS BAJO/MODERADO/ELEVADO
-Figura . Clasificación y visualización inalámbrica del nivel estimado de estrés.  
+<p align="center">
+<b>Figura 5.</b> Estres moderado.  
+</p>
+<p align="center">
+<b>Figura 5.</b> Clasificación y visualización inalámbrica del nivel estimado de estrés..  
+</p>
+  
 
 Finalmente, el dispositivo fue utilizado mientras el sujeto realizó una actividad que demandaba concentración y esfuerzo mental. Durante la prueba se mantuvo la adquisición continua de la GSR y la transmisión inalámbrica hacia la aplicación, permitiendo observar los cambios del nivel estimado de estrés durante la actividad.  
-
-
-
-AQUÍ VA GRÁFICA REPOSO VS TAREA COGNITIVA
-
-Figura 11. Comparación de la respuesta GSR durante reposo y durante la realización de una tarea cognitiva.  
-
-
-
+ 
 
 ### Análisis de resultados
 ### Análisis 1: Eficacia del sistema desarrollado para monitoreo ambulatorio del estrés en oficinas, aulas universitarias y el hogar  
@@ -209,6 +210,17 @@ Por lo tanto, el sistema podría servir como punto de partida para desarrollar u
 
 
 ### Conclusiones
+
+
+1. Se desarrolló un sistema vestible para la adquisición y monitoreo inalámbrico de la respuesta galvánica cutánea (GSR), con electrodos ubicados en la palma de la mano, un circuito de acondicionamiento, una ESP32 y una interfaz desarrollada en Thunkable. El sistema permitió adquirir y visualizar las variaciones de la señal en tiempo real desde un teléfono celular, cumpliendo con el objetivo principal de la práctica.
+   
+3. Se observó que la actividad electrodérmica presenta variaciones durante condiciones de reposo y ante estímulos de actividades específicas. En particular, la respiración profunda produjo una modificación observable de los valores de GSR, evidenciando que esta puede responder a cambios en la actividad del sistema nervioso autónomo. La respuesta observada permitió diferenciar una componente basal de variaciones transitorias asociadas a determinados estímulos.
+   
+4. La resistencia de 68 kΩ utilizada en el circuito permitió mantener la corriente teórica máxima por debajo de 1 mA incluso considerando la condición extrema de una resistencia de piel igual a 0 Ω. Por lo tanto, el diseño empleado cumplió con la condición de seguridad eléctrica establecida para esta práctica. Este análisis demuestra la importancia de limitar la corriente antes de realizar mediciones directamente sobre el cuerpo humano.
+   
+5. La implementación de la comunicación Wi-Fi mediante el punto de acceso de la ESP32 elimino la necesidad de una conexión física permanente entre el sistema de adquisición y el dispositivo de visualización. La utilización de un servidor web y el intercambio de datos mediante JSON facilitaron la transmisión de las lecturas hacia Thunkable, demostrando la viabilidad de integrar adquisición fisiológica, procesamiento y comunicación inalámbrica en un dispositivo portátil.
+  
+6. Finalmente, el desarrollo realizado demuestra la viabilidad de utilizar tecnologías de bajo costo como la ESP32 para construir sistemas vestibles de adquisición fisiológica y comunicación inalámbrica. Aunque el dispositivo presenta limitaciones que deben ser abordadas antes de utilizarlo en aplicaciones clínicas, constituye una base para futuros desarrollos orientados al monitoreo de estrés, carga mental y activación fisiológica en ambientes reales.
 
 
 ### Preguntas para la discusión
